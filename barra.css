@@ -1,0 +1,71 @@
+.barra{
+    /* background-color: rgba(0, 0, 0, 0.411); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-titulo{
+    display: flex;
+    align-items: center ;
+    height: 60px;
+    margin-left: 10px ;
+}
+
+
+
+.barra-txt{
+    color: white;
+    margin-left:10px ;
+}
+
+
+
+
+
+
+.opciones{
+    background-color: rgba(0, 0, 0, 0.466) ;
+    border-radius: 20px ;
+    margin-right: 40px;
+    display: flex;
+    align-self: center;
+    width: 300px;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+}
+.opciones a{
+    flex: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+
+}
+
+.opciones a:hover{
+    transition: background .5s;
+    background-color:rgba(255, 255, 255, 0.281);
+    border-radius: 20px;
+    color: rgb(253, 253, 253);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+}
+
+.menu-hamburguesa{
+
+    align-self: center;
+    display: none;
+    
+
+}

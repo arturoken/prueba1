@@ -1,0 +1,46 @@
+.madre-section2{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+
+.imaven img{
+
+
+    height: 450px;
+
+
+}
+
+.txt{
+   
+    margin-top: 100px;
+
+
+
+}
+
+.txt h1{
+
+    color: white;
+    text-align: center;
+    font-size:  40px;
+    font-family: sans-serif;
+
+
+
+}
+
+.txt p{
+
+
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+
+
+}

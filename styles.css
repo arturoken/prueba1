@@ -1,0 +1,108 @@
+
+@import url(barra.css);
+@import url(subtitulo.css);
+@import url(contenedor-section1.css);
+@import url(contenedor-section2.css);
+@import url(mediaqueris.css);
+@import url(footer.css);
+@import url(animate.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+.madre-header{
+
+    height: 60vh;
+    background-image: linear-gradient(135deg, #292a2e6e 0%, #292a2e0c 100%), url(imagenes/fondo.jpg);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto ;
+    position: relative;
+}
+
+.svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+.madre-section1{
+    background-color: rgba(255, 255, 255, 0.651);
+    display: flex;
+    line-height: 80px;
+}
+.madre-section2{
+
+    /* height: 500px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;  */
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-image: linear-gradient(135deg, #07070752 0%, #080808af 100%), url(imagenes/48190158-sala-de-trabajo-campo-portátil-escritorio-de-madera-página-de-internet-de-noticias-digitales-vendimia-ab.jpg);
+    display: flex;
+   
+
+
+
+}
+.contenedor-header{
+    /* background-color: rgba(0, 0, 0, 0.274); */
+    width: auto;
+    height: 400px;
+}
+
+.active{
+    transform: translate(0px);
+    transition: transform .5s;
+}
+
+
+
+
+.madre-section3{
+
+
+    position:absolute;
+    z-index: 100px;
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 100%;
+    transform: translateY(-300px);
+    height: 200vh;
+
+
+
+}
+
+
+
+.footer{
+
+    margin-top: 100px;
+    height: 40vh;
+    display: flex;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.089);
+
+
+    
+}
+
+
+.contacto{
+
+
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.623);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+
+}

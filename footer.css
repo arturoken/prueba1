@@ -1,0 +1,94 @@
+.contenedor-footer{
+
+    width: 100%;
+
+
+}
+
+
+.subfooter1{
+
+    
+    
+    /* background-color: black; */
+}
+
+
+.subsubfooter{
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+
+
+}
+
+
+.fotertxt{
+    display: flex;
+  
+}
+.fotertxt h2{
+
+
+    margin-left: 5px;
+
+}
+
+.foterimagenes{
+
+
+  
+    margin-right: 40px;
+
+    
+
+
+}
+
+
+
+/* SUBFOOTER 2 */
+
+
+
+
+.menufoter{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.submenufoter{
+    margin-top: 20px;
+}
+
+.submenufoter li{
+    margin-top: 10px;
+   
+    
+}
+
+.subfooter2 ul > li{
+
+
+
+    list-style: none;
+
+
+}
+
+.subfooter2 ul > li > a{
+
+
+    text-decoration: none;
+    color: black;
+
+
+
+}
